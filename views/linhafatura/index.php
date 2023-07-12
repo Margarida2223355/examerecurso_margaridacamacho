@@ -25,8 +25,8 @@
                         <th><?= $linhafatura -> quantidade?></th>
                         <th><?= $linhafatura -> subtotal?></th>
                         <td>
-                            <a href="index.php?c=fatura&a=edit&fatura_id=<?=$linhafatura->id ?>" class="btn btn-info" role="button">Editar</a>
-                            <a href="index.php?c=fatura&a=delete&id=<?=$linhafatura -> id ?>" class="btn btn-info" role="button">Eliminar</a>
+                            <a href="index.php?c=linhafatura&a=edit&fatura_id=<?=$linhafatura->id ?>" class="btn btn-info" role="button">Editar</a>
+                            <a href="index.php?c=linhafatura&a=delete&id=<?=$linhafatura -> id ?>" class="btn btn-info" role="button">Eliminar</a>
                         </tr>
         <?php } ?>
         </tbody>

@@ -24,6 +24,7 @@
 
         public function store() {
             $fatura = new Fatura($this -> getHTTPPost());
+            $fatura -> valortotal = 0;
 
             if($fatura -> is_valid()) {
                 $fatura -> save();
