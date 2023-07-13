@@ -7,11 +7,6 @@
                             <h5 class="card-title">Lojas</h5>
                         </a>
                 </div>
-                <div class="card shadow-sm">
-                        <a href="index.php?c=serie&a=minhasseries" class="btn btn-primary">
-                            <h5 class="card-title">Minhas Séries</h5>
-                        </a>
-                </div>
             </div>
             <div class="col">
                 <div class="card shadow-sm">
@@ -27,14 +22,13 @@
                         </a>
                 </div>
             </div>
-        </div>
-        <div class="row align-items-start">
             <div class="col">
                 <div class="card shadow-sm">
                         <a href="index.php?c=fatura&a=index" class="btn btn-primary">
                             <h5 class="card-title">Faturas</h5>
                         </a>
                 </div>
+            </div>
         </div>
     </div>
 </div>

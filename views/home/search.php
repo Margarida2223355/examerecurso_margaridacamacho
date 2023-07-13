@@ -1,5 +1,5 @@
 <main class="form-signin m-auto">
-    <form action="index.php?c=serie&a=search" method="POST">
+    <form action="index.php?c=fatura&a=search" method="POST">
         <h1 class="h3 my-3 fw-normal">Procurar Faturas por NIF</h1>
         <div class="row">
             <div class="col mx-auto">

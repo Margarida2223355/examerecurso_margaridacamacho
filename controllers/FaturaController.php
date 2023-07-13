@@ -71,5 +71,11 @@
             $this -> redirectToRoute('fatura', 'index');
 
         }
+
+        public function search() {
+            $faturas = Fatura::find_all_by_nifcliente($this -> getHTTPPost());
+
+            $this -> renderView('fatura', 'index', ['faturas' => $faturas]);
+        }
     }
 ?>

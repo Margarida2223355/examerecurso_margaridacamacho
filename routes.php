@@ -55,6 +55,7 @@ return [
         'edit' => ['GET', 'FaturaController', 'edit'],
         'update' => ['POST', 'FaturaController', 'update'],
         'delete' => ['GET', 'FaturaController', 'delete'],
+        'search' => ['POST', 'FaturaController', 'search'],
     ],
 
     'linhafatura' => [
